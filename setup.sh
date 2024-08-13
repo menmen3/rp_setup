@@ -15,6 +15,7 @@ sudo apt install git
 sudo systemctl enable pcscd
 sudo systemctl start pcscd
 
+gh auth login
 # リポジトリをクローン
 gh repo clone menmen3/facerecognition
 

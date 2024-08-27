@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt install libusb-1.0-0 libusb-1.0-0-dev libpcsclite-dev pcscd pcsc-tools libccid libnfc-bin libnfc-dev cmake
 sudo apt install git
-
+sudo apt-get install build-essential libboost-all-dev
 # Github CLI
 (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
 && sudo mkdir -p -m 755 /etc/apt/keyrings \

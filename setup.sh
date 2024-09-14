@@ -29,12 +29,14 @@ python3 -m venv venv
 # 仮想環境に入る
 . venv/bin/activate
 
+sudo chown -R $USER venv/
+
 # NFC
 pip install pyscard
 
 # 顔認証
 pip install opencv-python
-pip install dlib
+pip install dlib --use-pep517
 pip install face_recognition
 # https://github.com/ageitgey/face_recognition/issues/608
 pip install setuptools

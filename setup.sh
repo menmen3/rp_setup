@@ -37,7 +37,7 @@ pip install pyscard
 # 顔認証
 pip install opencv-python
 pip install dlib --use-pep517
-pip install face_recognition
+pip install face-recognition
 # https://github.com/ageitgey/face_recognition/issues/608
 pip install setuptools
 

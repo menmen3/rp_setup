@@ -11,6 +11,7 @@ sudo apt-get install build-essential libboost-all-dev
 && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
 && sudo apt update \
 && sudo apt install gh -y
+&& sudo apt install python3-gst-1.0
 
 sudo systemctl enable pcscd
 sudo systemctl start pcscd

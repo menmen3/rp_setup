@@ -3,6 +3,8 @@ sudo apt update
 sudo apt install libusb-1.0-0 libusb-1.0-0-dev libpcsclite-dev pcscd pcsc-tools libccid libnfc-bin libnfc-dev cmake
 sudo apt install git
 sudo apt-get install build-essential libboost-all-dev
+# 音声再生のため
+sudo apt install libportaudio2 libportaudiocpp0 portaudio19-dev 
 # Github CLI
 (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
 && sudo mkdir -p -m 755 /etc/apt/keyrings \
@@ -34,6 +36,9 @@ sudo chown -R $USER venv/
 
 # NFC
 pip install pyscard
+
+# 音声
+pip install sounddevice soundfile  
 
 # 顔認証
 pip install opencv-python

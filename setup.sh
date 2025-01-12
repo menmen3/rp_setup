@@ -5,6 +5,8 @@ sudo apt install git
 sudo apt-get install build-essential libboost-all-dev
 # 音声再生のため
 sudo apt install libportaudio2 libportaudiocpp0 portaudio19-dev 
+sudo apt install libcairo2-dev libgirepository1.0-dev pkg-config python3-dev gir1.2-gtk-3.0
+
 # Github CLI
 (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
 && sudo mkdir -p -m 755 /etc/apt/keyrings \

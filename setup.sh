@@ -3,6 +3,7 @@ sudo apt update
 sudo apt install libusb-1.0-0 libusb-1.0-0-dev libpcsclite-dev pcscd pcsc-tools libccid libnfc-bin libnfc-dev cmake
 sudo apt install git
 sudo apt-get install build-essential libboost-all-dev
+sudo apt install python3-tk
 # 音声再生のため
 sudo apt install libportaudio2 libportaudiocpp0 portaudio19-dev 
 sudo apt install libcairo2-dev libgirepository1.0-dev pkg-config python3-dev gir1.2-gtk-3.0
